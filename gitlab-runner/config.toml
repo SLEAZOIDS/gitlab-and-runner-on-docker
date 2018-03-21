@@ -1,0 +1,24 @@
+concurrent = 1
+check_interval = 0
+
+[[runners]]
+  name = "test"
+  url = "http://gitlab"
+  token = "e8429025529d5f31677743b567f018"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "centos:latest"
+    privileged = true
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "docker-shell-runner"
+  limit = 3
+  url = "http://gitlab"
+  token = "e9e575a50938fcca39962bcf9df18c"
+  executor = "shell"
+  [runners.cache]
