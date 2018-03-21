@@ -1,0 +1,18 @@
+=============== Mar 19, 2018 (UTC) ===============
+15:27:27.957911 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:27:27.980618 db@open opening
+15:27:27.984952 version@stat F·[] S·0B[] Sc·[]
+15:27:27.997602 db@janitor F·2 G·0
+15:27:27.998030 db@open done T·17.0317ms
+15:33:25.872409 db@close closing
+15:33:25.875406 db@close done T·2.9951ms
+=============== Mar 19, 2018 (UTC) ===============
+15:34:09.831952 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:34:09.846182 version@stat F·[] S·0B[] Sc·[]
+15:34:09.847013 db@open opening
+15:34:09.856390 journal@recovery F·1
+15:34:09.862424 journal@recovery recovering @1
+15:34:10.100664 memdb@flush created L0@2 N·1838 S·290KiB "\x04db\x06db0,v614":"\x1cre..dca,v1137"
+15:34:10.126728 version@stat F·[1] S·290KiB[290KiB] Sc·[0.25]
+15:34:10.167956 db@janitor F·3 G·0
+15:34:10.168831 db@open done T·321.2661ms

@@ -1,0 +1,14 @@
+[0KRunning with gitlab-runner 10.5.0 (80b03db9)
+[0;m[0K  on docker-shell-runner e9e575a5
+[0;m[0KUsing Shell executor...
+[0;msection_start:1521632088:prepare_script[0KRunning on 928aca1d05a4...
+section_end:1521632089:prepare_script[0Ksection_start:1521632089:get_sources[0K[32;1mCloning repository...[0;m
+Cloning into '/home/gitlab-runner/builds/e9e575a5/0/root/my-progect'...
+[32;1mChecking out 648f5e16 as master...[0;m
+[32;1mSkipping Git submodules setup[0;m
+section_end:1521632093:get_sources[0Ksection_start:1521632093:restore_cache[0Ksection_end:1521632093:restore_cache[0Ksection_start:1521632093:download_artifacts[0Ksection_end:1521632093:download_artifacts[0Ksection_start:1521632093:build_script[0K[32;1m$ echo "before start"[0;m
+before start
+[32;1m$ echo "uname -a"[0;m
+uname -a
+section_end:1521632093:build_script[0Ksection_start:1521632093:after_script[0Ksection_end:1521632093:after_script[0Ksection_start:1521632093:archive_cache[0Ksection_end:1521632093:archive_cache[0Ksection_start:1521632093:upload_artifacts[0Ksection_end:1521632093:upload_artifacts[0K[32;1mJob succeeded
+[0;m

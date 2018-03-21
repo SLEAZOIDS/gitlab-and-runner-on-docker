@@ -1,0 +1,18 @@
+[0KRunning with gitlab-runner 10.5.0 (80b03db9)
+[0;m[0K  on docker-shell-runner e9e575a5
+[0;m[0KUsing Shell executor...
+[0;msection_start:1521632339:prepare_script[0KRunning on 928aca1d05a4...
+section_end:1521632340:prepare_script[0Ksection_start:1521632340:get_sources[0K[32;1mFetching changes...[0;m
+HEAD is now at 648f5e1 gitlab-ci
+From http://06c94e1f47a0/root/my-progect
+   648f5e1..588727c  master     -> origin/master
+[32;1mChecking out 588727c9 as master...[0;m
+[32;1mSkipping Git submodules setup[0;m
+section_end:1521632345:get_sources[0Ksection_start:1521632345:restore_cache[0Ksection_end:1521632345:restore_cache[0Ksection_start:1521632345:download_artifacts[0Ksection_end:1521632345:download_artifacts[0Ksection_start:1521632345:build_script[0K[32;1m$ echo "before start"[0;m
+before start
+[32;1m$ echo "uname -a"[0;m
+uname -a
+[32;1m$ touch test.txt[0;m
+[32;1m$ mkdir test[0;m
+section_end:1521632346:build_script[0Ksection_start:1521632346:after_script[0Ksection_end:1521632346:after_script[0Ksection_start:1521632346:archive_cache[0Ksection_end:1521632346:archive_cache[0Ksection_start:1521632346:upload_artifacts[0Ksection_end:1521632346:upload_artifacts[0K[32;1mJob succeeded
+[0;m
